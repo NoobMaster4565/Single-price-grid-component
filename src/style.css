@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+html,body{
+    background-color: hsl(204, 43%, 93%) ;
+}
+.container{ 
+    max-width: 1440px;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.content{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap; 
+    
+}
+.block-1{
+    background-color: white;
+    width: 100%; 
+    padding: 50px;
+    border-radius:10px 10px 0 0;
+
+   
+}
+.block-1 > h2{
+    color: hsl(179, 62%, 43%);
+    
+}
+.block-1 > h3{
+    color: hsl(69.6deg 59.81% 59.02%);
+    margin-top: 25px;
+}
+.block-1 > p{
+    margin-top: 15px;
+    font-size: 16px;
+    color: hsl(231deg 12.5% 68.63%);
+}
+.block-2{
+    padding: 50px;
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    color: white;
+    border-radius:0 0 0 10px;
+
+}
+.block-2 > p{
+    font-size: 16px;
+    margin-top: 20px;
+    
+    
+}
+.p{
+    color:hsl(181.14deg 62.13% 66.86%);
+}
+.block-2 > p > span{
+font-size: 35px;
+color: white;
+}
+button{
+    background-color: hsl(71.1deg 73% 53.53%);
+    color: white;
+    width: 240px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.block-3{
+    width: 50%;
+    padding: 50px;
+    background-color:hsl(179.48deg 47.15% 51.76%) ;
+    color: white;
+    border-radius:0 0 10px 0;
+
+    }
+.block-3 > p{
+    margin-top: 
+    20px;
+    padding: 10 0px;
+    line-height: 25px;
+    color: rgb(163 235 238);
+
+}
+@media screen and (max-width: 768px){
+
+    .content{
+        width: 80%;
+        padding: 100px 0;
+        margin: 0 auto;
+    }
+    br{
+        display: none;
+    }
+    .block-2{
+        width: 50%;
+        padding: 15px;
+    }
+    .block-3{
+        width: 50%;
+        padding: 15px;
+    }
+    button{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 375px){
+   
+    .container{ 
+        padding: 50px 0;
+        
+    }
+    .content{
+        width: 80%;
+        display: block;
+        align-items: center;
+       
+    }
+    .block-1{
+        padding: 20px;
+    }
+    br{
+        display: none;
+    }
+    .block-2{
+        width: 100%;
+        display: block;
+        border-radius: 0;
+        padding: 20px;
+        
+    }
+    button{
+        background-color: hsl(71.1deg 73% 53.53%);
+    color: white;
+    width: 240px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+    margin: 20px 0;
+    
+    
+    }
+
+    .block-3{
+        width: 100%;
+        display: block;
+        border-radius:0 0 10px 10px;
+    }
+        
+}
